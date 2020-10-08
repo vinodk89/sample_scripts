@@ -92,3 +92,13 @@ sub time_ts {
     my $epoch_seconds = timelocal($sec, $min, $hr, $dd, $mm, $yyyy);
     return $epoch_seconds;
 }
+
+#############
+=com
+OUTPUT:
+Event: 1341
+        CLEARED_ACKNOWLEDGED,2020-10-01T12:15:00,CLEARED,Node001
+Event: 1342
+        ACTIVE_UNACKNOWLEDGED,2020-10-01T12:10:00,CLEARED,Node002
+=cut
+
